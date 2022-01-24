@@ -7,7 +7,7 @@ import java.io.*;
 public class PersistenceManager {
 
     IPersistence ph = new HighScorePersistence();
-    private final File highScoreFile = new File("./res/Settings/highscore.xml");
+    private final File highScoreFile = new File("./res/XML/highscore.xml");
     private HighScore highScore;
     public HighScore getHighScore() {
         if (highScore == null){
@@ -16,8 +16,8 @@ public class PersistenceManager {
         return highScore;
     }
 
-    IPersistence ps =new SettingsPersistence();
-    private final File settingsFile = new File("./res/Settings/settings.xml");
+    IPersistence ps = new SettingsPersistence();
+    private final File settingsFile = new File("./res/XML/settings.xml");
     private Settings settings;
     public Settings getSettings(){
         if(settings == null){

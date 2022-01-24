@@ -3,7 +3,13 @@
  <object class="model.util.save.SerializeHighScore" id="SerializeHighScore0">
   <void property="listHighScore">
    <void index="0">
-    <string>0 : Fri Jan 21 00:00:30 CET 2022</string>
+    <string>0 : Mon Jan 24 07:10:29 UTC 2022</string>
+   </void>
+   <void method="add">
+    <string>0 : Mon Jan 24 07:10:34 UTC 2022</string>
+   </void>
+   <void method="add">
+    <string>6 : Mon Jan 24 07:10:48 UTC 2022</string>
    </void>
   </void>
  </object>

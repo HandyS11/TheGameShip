@@ -5,7 +5,7 @@
    <double>3.0</double>
   </void>
   <void property="volume">
-   <double>80.0</double>
+   <double>100.0</double>
   </void>
  </object>
 </java>

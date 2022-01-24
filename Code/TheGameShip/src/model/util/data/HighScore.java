@@ -5,7 +5,6 @@ import javafx.collections.ObservableList;
 import java.util.ArrayList;
 import java.util.Date;
 
-
 public class HighScore {
 
     private final ObservableList<String> highScore;
